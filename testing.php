@@ -1,5 +1,6 @@
 
         <?php
+if(isset($_POST['Signup'])){
         $cleardb_url = parse_url(getenv('CLEARDB_DATABASE_URL'));
         $cleardb_server = $cleardb_url["host"];
         $cleardb_username = $cleardb_url["user"];
@@ -21,7 +22,7 @@
         $HouseNumber_err = $Email_err = $password_err = $confirm_password_err = "";
          
         // Processing form data when form is submitted
-        if(isset($_POST['Signup'])){
+        
          
             // Validate houseNumber
             if(empty(trim($_REQUEST["House"]))){
