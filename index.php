@@ -8,8 +8,8 @@ include("testing.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Resident login.css">
-    <link rel="icon" type="image/jpeg" sizes="1500x1000" href="icon.jpg">
-    <link rel="icon" type="image/jpeg" sizes="900x700" href="icon.jpg">
+    <link rel="icon" type="image/jpeg" sizes="1500x1000" href="img/Southernview.jpg">
+    <link rel="icon" type="image/jpeg" sizes="900x700" href="img/Southernview.jpg">
     <title>Resident</title>
 </head>
 <body>
