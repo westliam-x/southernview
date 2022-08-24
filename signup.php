@@ -1,4 +1,6 @@
-
+<?php
+include("testing.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +15,7 @@
     <div class="bg-img">
         <div class="content">
             <header>SIGN UP</header>
-            <form action="testing.php" method="post">
+            <form action="" method="post">
                 <div class="field">
                     <span class="fa fa-user"></span>
                     <input type="email" name="Email" placeholder="Email address" required>
