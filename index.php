@@ -14,33 +14,33 @@
     <div class="bg-img">
         <div class="content">
             <header>SIGN UP</header>
-            <form action="testing.php" method="post">
+            <form action="sign.php" method="post">
                 <div class="field">
                     <span class="fa fa-user"></span>
                     <input type="email" name="Email" placeholder="Email address" required>
-                        <p class="invalid-feedback"><?php echo $Email_err; ?></p>
+                        <p class="invalid-feedback"></p>
                 </div>
                 <div class="field space">
                     <div class="field">
                         <span class="fa fa-user"></span>
-                        <input type="text" name="House" placeholder="Enter housenumber" required <?php echo (!empty($HouseNumber_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $HouseNumber; ?>">
-                        <p class="invalid-feedback"><?php echo $HouseNumber_err; ?></p>
+                        <input type="text" name="House" placeholder="Enter housenumber" ">
+                        <p class="invalid-feedback"></p>
                     </div>
                 </div>
 
 
                 <div class="field space">
                 <span class="fa fa-lock"></span>
-                <input type="password" name="Password" class="pass-key" required placeholder="password" <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $password; ?>">
-                    <p class="invalid-feedback"><?php echo $password_err; ?></p>
+                <input type="password" name="Password" class="pass-key" required placeholder="password" >
+                    <p class="invalid-feedback"></p>
                 </div>
 
 
 
                 <div class="field space">
                 <span class="fa fa-lock"></span>
-                <input type="password" name="ConfirmPassword" class="pass-confirm-key" required placeholder="Confirm Password" <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $confirm_password; ?>">
-                    <p class="invalid-feedback"><?php echo $confirm_password_err; ?></p>
+                <input type="password" name="ConfirmPassword" class="pass-confirm-key" required placeholder="Confirm Password" >
+                    <p class="invalid-feedback"></p>
                 </div>
 
                 
