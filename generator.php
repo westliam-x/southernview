@@ -2,7 +2,7 @@
 include('login.php');
 
 if(isset($_SESSION['login_user'])){
-    header('Location:https://southernview-estate.herokuapp.com/generatedCode.html');
+    header('Location:https://southernview-estate.herokuapp.com/generatedCode.php');
 }
 ?>
 <!DOCTYPE html>
